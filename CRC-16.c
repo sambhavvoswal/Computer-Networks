@@ -22,8 +22,9 @@ void binarydiv(int dataword[], int n, int k, int divisor[])
 
 void printDataword(int dataword[],int k,int n)
 {
+	int i;
 	for (i = k; i < n; i++) 
-        printf("%d", dataword[i]);
+        	printf("%d", dataword[i]);
 }
 
 void detect(int user[],int k,int n)
@@ -33,7 +34,7 @@ void detect(int user[],int k,int n)
 	for (i = k; i < n; i++) 
 	{
         if (user[i] != 0) 
-		{
+	{
             error = 1;
             break;
         }
